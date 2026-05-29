@@ -2,13 +2,15 @@ import { testimonials } from "../content";
 
 export function Testimonials() {
   return (
-    <section id="testimonials" className="py-16 border-t border-ink/10">
-      <h2 className="text-3xl font-semibold mb-8">{testimonials.heading}</h2>
+    <section id="testimonials" className="py-14 border-t border-ink/10">
+      <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-accent border-b border-ink/10 pb-3 mb-8">
+        {testimonials.heading}
+      </h2>
       <div className="grid md:grid-cols-2 gap-6">
         {testimonials.quotes.map((q, i) => (
           <figure
             key={i}
-            className="p-6 rounded-2xl bg-ink/[0.03] border border-ink/10"
+            className="p-5 bg-ink/[0.02] border border-ink/10"
           >
             <blockquote className="text-ink/85 leading-relaxed">
               &ldquo;{q.text}&rdquo;
