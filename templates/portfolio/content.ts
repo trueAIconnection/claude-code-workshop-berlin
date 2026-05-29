@@ -160,11 +160,32 @@ export const software = {
 
 export const contact = {
   heading: "Contact",
+  body: "Feel free to reach out — whether it's about DPP compliance, fashion-tech, or a potential collaboration.",
   phone: "+49 173 195 8889",
   email: "alina.choukri@proton.me",
   location: "Berlin, Germany",
   socials: [
     { label: "LinkedIn", href: "https://linkedin.com/in/yourname" },
+  ],
+};
+
+export const projects = {
+  heading: "Projects",
+  items: [
+    {
+      title: "ThreadPass",
+      year: "2024–present",
+      summary:
+        "B2B SaaS platform helping European textile SMEs generate and manage Digital Product Passports for EU ESPR compliance.",
+      link: { label: "seam.fashion", href: "https://seam.fashion" },
+    },
+    {
+      title: "TwinLabel",
+      year: "2024–present",
+      summary:
+        "B2C transparency layer turning DPP data into consumer-facing product stories, bridging regulatory compliance and brand storytelling.",
+      link: null,
+    },
   ],
 };
 
